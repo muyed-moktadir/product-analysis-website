@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import useBooks from "../../CustomHook/CustomHook";
 
 import b_img from "../image/b_img.jpg";
@@ -6,12 +7,13 @@ import Review from "../Review/Review";
 import "./Home.css";
 const Home = () => {
   const [books] = useBooks();
-
+const navigate= useNavigate();
   return (
     <div className="home-section">
-      <div className="cozy-library-info">
+      <div className="cozy-library-container">
         <div>
-          <h1>Cartoon Book's World !!</h1>
+          <h1>Cartoon Animation </h1>
+          <h1>Book's World !!</h1>
           <p>
             “Yesterday is history, tomorrow is a mystery, and today is a gift...
             that's why they call it the present” - Master Oogway, 'Kung Fu
@@ -29,7 +31,7 @@ const Home = () => {
           <Review key={book.id} book={book}></Review>
         ))}
       </div>
-      <button className="see-more-book-btn">
+      <button onClick={()=>navigate('/reviews')} className="see-more-books-btn">
         <p>see more books</p>
       </button>
     </div>

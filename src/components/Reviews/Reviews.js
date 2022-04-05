@@ -4,7 +4,7 @@ import AllBooks from '../AllBooks/AllBooks';
 import './Reviews.css'
 
 const Reviews = () => {
-    const [books,setBooks]= useBooks();
+    const [books]= useBooks();
 
     return (
         <div>

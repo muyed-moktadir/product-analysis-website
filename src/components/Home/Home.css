@@ -1,41 +1,78 @@
 .home-section{
     margin-bottom: 30px;
 }
-.cozy-library-info{
+.cozy-library-container{
     display: grid;
     grid-template-columns:4fr 1fr;
     gap: 30px;
     align-items: center;
     margin: 20px;
 }
-.cozy-library-info img{
-    width: 750px;
+.cozy-library-container img{
+    width: 730px;
 }
 
-.cozy-library-info h1{
-    font-size: 40px;
+.cozy-library-container h1{
+    font-size: 45px;
 }
 
-.cozy-library-info p{
+.cozy-library-container p{
     font-size: 20px;
 }
 
+/* TODO: three books */
 .review-three-items{
-    display: flex;
+    /* display: flex;
     gap: 2em;
     justify-content: center;
-    margin: 30px;
+    margin: 30px; */
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    justify-items: center;
     box-shadow: violet;
+    margin-bottom: 10px;
 }
-.see-more-book-btn{
+.see-more-books-btn{
     text-decoration: none;
     background-color: tan;
     border-radius: 10px;
+    margin-top: 20px;
+    
 
 }
 
-.see-btn p{
+.see-more-books-btn p{
     margin:15px 30px ;
+    font-size: 18px;
+
 }
 
+/* TODO:   responsive  */
+@media screen and (max-width:600px) {
+    .cozy-library-container{
+        display: grid;
+        grid-template-columns:repeat(1 , 1fr);
+        width: auto;
+
+    }
+    .cozy-library-container img{
+        width: 100%;
+    }
+    
+    .cozy-library-container h1{
+        font-size:auto;
+    }
+    
+    .cozy-library-container p{
+        font-size: auto;
+    }
+    .review-three-items{
+        grid-template-columns: repeat(1,2fr);
+        /* justify-content: center; */
+        justify-items: center;
+        width: auto;
+        height: auto;
+
+    }    
+}
 

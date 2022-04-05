@@ -1,9 +1,8 @@
 .book{
     width: 400px;
-    height: 500px;
+    height: auto;
     border: 1px solid #9ac9e6;
     border-radius: 8px;
-    padding: 4px;
     
 }
 
@@ -13,3 +12,14 @@
     border-radius: 8px;
     margin: 7px;
 }
+.book-details {
+    padding: 10px;
+}
+
+@media screen and (max-width:600px){
+    .book{
+        width: 100%;
+        margin: 0%;
+    }
+  
+  }
