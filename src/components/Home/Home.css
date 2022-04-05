@@ -49,14 +49,18 @@
 
 /* TODO:   responsive  */
 @media screen and (max-width:600px) {
+    .home-section{
+        width: 100%;
+    }
     .cozy-library-container{
         display: grid;
         grid-template-columns:repeat(1 , 1fr);
-        width: auto;
+        width: 100%;
 
     }
     .cozy-library-container img{
         width: 100%;
+        margin: 0%;
     }
     
     .cozy-library-container h1{
