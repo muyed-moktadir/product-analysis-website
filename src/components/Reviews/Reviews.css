@@ -1,0 +1,9 @@
+.review-all-books{
+    display: grid;
+    grid-template-columns: repeat(2 2fr);
+    gap: 2em;
+    justify-content: center;
+    margin: 30px;
+    box-shadow: violet;
+    width: auto;
+}

@@ -1,5 +1,5 @@
 
-.all-book{
+.all-books{
     width: 400px;
     height: 500px;
     border: 1px solid #9ac9e6;
@@ -8,7 +8,7 @@
     
 }
 
-.books-image img{
+.all-books-image img{
     width: 300px;
     height: 300px;
     border-radius: 8px;
