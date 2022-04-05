@@ -3,8 +3,8 @@
 [Github link](https://github.com/facebook/create-react-app).
 [Netlify link](https://github.com/facebook/create-react-app).
 
-## `bullet listed what i have done in my project`
-* in homepage there short quetes and picture and 3 books review
+## `What i have done in my project`
+* in homepage there short quotes with picture and 3 books review
 * Review page show all books
 * in blogs show the following questions answers
 * A not found page show in the project

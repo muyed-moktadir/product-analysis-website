@@ -19,3 +19,11 @@
     border-radius: 8px;
     margin: 7px;
 }
+
+@media screen and (max-width:600px){
+    .all-books{
+        width: 100%;
+        margin: 0%;
+    }
+  
+  }

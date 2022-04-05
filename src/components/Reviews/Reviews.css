@@ -1,17 +1,25 @@
-.review-all-books{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 2em;
-    justify-content: center;
-    margin: 30px;
-    box-shadow: violet;
-    width: auto;
+.review-all-books {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+  justify-content: center;
+  margin: 30px;
+  box-shadow: violet;
+  width: auto;
 }
 
-.book{
-    width: 400px;
-    height: auto;
-    border: 1px solid #9ac9e6;
-    border-radius: 8px;
-    
+.book {
+  width: 400px;
+  height: auto;
+  border: 1px solid #9ac9e6;
+  border-radius: 8px;
 }
+
+@media screen and (max-width: 600px) {
+  .review-all-books {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+}
+
