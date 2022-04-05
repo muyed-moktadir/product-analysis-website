@@ -1,3 +1,6 @@
+.home-section{
+    margin-bottom: 30px;
+}
 .cozy-library-info{
     display: grid;
     grid-template-columns:4fr 1fr;
@@ -16,3 +19,23 @@
 .cozy-library-info p{
     font-size: 20px;
 }
+
+.review-three-items{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    margin: 30px;
+    box-shadow: violet;
+}
+.see-more-book-btn{
+    text-decoration: none;
+    background-color: tan;
+    border-radius: 10px;
+
+}
+
+.see-btn p{
+    margin:15px 30px ;
+}
+
+
