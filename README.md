@@ -1,7 +1,7 @@
 # Cozy Library
 
-[Github link](https://github.com/facebook/create-react-app).
-[Netlify link](https://github.com/facebook/create-react-app).
+[Github link](https://github.com/programming-hero-web-course-4/product-analysis-website-muyed-moktadir).
+[Netlify link](https://starlit-melomakarona-1635ec.netlify.app/).
 
 ## `What i have done in my project`
 * in homepage there short quotes with picture and 3 books review
