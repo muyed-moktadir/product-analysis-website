@@ -3,6 +3,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2em;
   justify-content: center;
+  justify-items: center;
   margin: 30px;
   box-shadow: violet;
   width: auto;
@@ -20,6 +21,10 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
+    width: auto;
   }
+  .header{
+    width: auto;
+}
 }
 

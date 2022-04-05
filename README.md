@@ -8,6 +8,7 @@
 * Review page show all books
 * in blogs show the following questions answers
 * A not found page show in the project
+* The Website is responsive for mobile and desktop
 
 
 

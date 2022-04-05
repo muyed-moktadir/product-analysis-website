@@ -7,7 +7,6 @@ import Reviews from './components/Reviews/Reviews';
 import About from './components/About/About';
 import Blogs from './components/Blogs/Blogs';
 import NotFound from './components/NotFound/NotFound';
-import Review from './components/Review/Review';
 
 function App() {
   return (
