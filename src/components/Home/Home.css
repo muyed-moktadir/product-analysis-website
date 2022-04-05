@@ -1,0 +1,18 @@
+.cozy-library-info{
+    display: grid;
+    grid-template-columns:4fr 1fr;
+    gap: 30px;
+    align-items: center;
+    margin: 20px;
+}
+.cozy-library-info img{
+    width: 750px;
+}
+
+.cozy-library-info h1{
+    font-size: 40px;
+}
+
+.cozy-library-info p{
+    font-size: 20px;
+}
